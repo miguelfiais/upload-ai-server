@@ -1,6 +1,9 @@
+import { Button } from './components/ui/button'
+
 export const App = () => {
   return (
-    <div>Hello World</div>
+    <div>
+      <Button className=" items-center flex ">Teste</Button>
+    </div>
   )
 }
-
